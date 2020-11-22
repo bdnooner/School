@@ -1,0 +1,5 @@
+/*
+The algorithm merge sort is based on the following observation: If we are given two sorted lists, A and B, with n elements in each, then the list C made up of the elements of both A and B can be sorted in linear time by using the fact that A and B are sorted. This is known as the merge of A and B. For example, if A, B, and C are arrays, we need three counters: a_ptr, b_ptr, and c_ptr, one for each array. Elements pointed by a_ptr and b_ptr are compared. If, for example, A[a_ptr] <= B[b_ptr], then A[a_ptr] is copied into C[c_ptr] and both a_ptr and c_ptr are incremented by 1. Similarly, when A[a_ptr] > B[b_ptr], B[b_ptr] is copied into C[c_ptr] and both b_ptr and c_ptr are incremented by 1. When either A or B is exhausted, the remaining elements of the other array are copied into C.
+
+The merge sort method proceeds by dividing the array to be sorted into two parts of equal size if the array size is greater than 1, and then recursively, merge sorts the two halves. The next step is to merge the two parts just sorted with an algorithm similar to the one described above. Merge sort is also an efficient algorithm with a running time of O(n log n).
+*/

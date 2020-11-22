@@ -1,0 +1,3 @@
+/*
+In the C++ standard template library, the header file <algorithm> contains the definition of several functions that can be used on collections of elements, such as vectors. These functions include sort to sort in ascending order elements in a range, min_element to obtain an iterator pointing to the smallest value of elements in a range, and max_element to obtain an iterator pointing to the largest value of elements in a range.
+*/
