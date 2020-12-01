@@ -7,7 +7,7 @@ The selection of the pivot in each iteration is important to the efficiency of t
 */
 
 /*
-* Quick-sorts this ArrayList. This is for a member function of an ArrayList, you could also pass in the array/list for a stand alone function
+* Quick-sorts this ArrayList. his is for a member function of an ArrayList, you could also pass in the array/list for a stand alone function
 */
 void ArrayList::quicksort()
 {
