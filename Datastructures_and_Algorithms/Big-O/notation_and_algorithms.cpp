@@ -4,7 +4,7 @@ To describe the running time, we will use O-notation in order to simplify the an
 Let us consider this example. Suppose that we are given a collection of n numbers stored in an array A and we want to write a function that returns the minimum; that is, the smallest value in the array. A simple algorithm consists of n iterations where in the i-th iteration, the minimum for the sequence A[0], A[1], . . . , A[i] is found by comparing the minimum of iteration i - 1 with A[i].
 */
 
-The Minimum Algorithm
+//The Minimum Algorithm
 
 int minimum(int A[], int n) 
 {

@@ -7,6 +7,8 @@
         "*.tcc": "cpp",
         "optional": "cpp",
         "numeric": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     }
 }
